@@ -1,0 +1,84 @@
+*{
+    /*background-color: aqua;*/
+    text-align: center;
+}
+h1,h2{
+    color:#ffff00;
+}
+.header{
+    background-color:#000000;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    color: #ff0000;
+    opacity:0;
+}
+.genesis{
+    background-color: #ffff00;
+    display:flex;
+    justify-content: space-between;
+}
+.up{
+    color: rgb(75,0,130);
+    border:solid;
+}
+.creation{
+    background-color:#ff0000;
+    display:flex;
+    justify-content: space-between;
+}
+.about{
+    color:#ffffff;
+    size: 13pt;
+}
+.mission{
+    background-color:#ffff00;
+    display:flex;
+  flex-direction:column;
+}
+.info{
+    background-color:#ffc0cb;
+    color:darkgreen;
+}
+h3{
+    color:#000000;
+    border:solid;
+}
+.genesis:hover img{
+opacity:1;
+}
+.creation:hover img{
+    opacity:1;
+}
+.menu a{
+    margin-right:10px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.mission{
+    margin-left:30px;
+    margin-right:30px;
+}
+.genesis img{
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.header a:link{
+    color:#ff0000;
+}
+
+.header a:visited{
+    color:rgb(44, 110, 0);
+}
+.about{
+    margin-left:30px;
+    margin-right:30px;
+}
+.creation img{
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
